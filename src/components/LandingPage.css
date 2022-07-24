@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+*{
+    overflow-x: hidden;
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../assets/landingPage.png');
+    background-size: cover;
+}
+.text-yellow{
+    color: yellow;
+}
+.heading{
+    transition: ease-in-out 1s;
+    font-size: 4vw;
+    font-family: 'Josefin Sans', sans-serif;
+    position: relative;
+    left: 35%;
+    top: 35%;
+    color: white;
+}
+.heading:hover{
+    transition: ease-in-out 1s;
+    transform: scale(1.01);
+    color: rgb(237, 231, 140);
+}

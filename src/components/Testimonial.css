@@ -1,0 +1,36 @@
+.test{
+    width: 100vw;
+    height: 100vh;
+    /* background: url(../assets/test.jpeg); */
+    background-color: black;
+    /* border: 2px solid yellow; */
+}
+.card{
+    background: url(../assets/test.jpeg);
+}
+.carousel-inner{
+    text-align: center;
+    background-image: url('../assets/bg.jpeg');
+    background-size: cover;
+}
+.carousel-item{
+    padding-top: 10vw;
+    padding-bottom: 10vw;
+    text-align: center;
+    width: 100%;
+}
+.card{
+    position: relative;
+    left: 40vw;
+}
+.card-body{
+    /* background-image: url('../assets/bg.webp') */
+    background-color: rgba(0,0,0,0.7);
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+@media (max-width: 500px) {
+    .card{
+        left: 20vw;
+    }
+}
